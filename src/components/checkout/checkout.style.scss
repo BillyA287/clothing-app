@@ -21,7 +21,11 @@
         width: 8%;
       }
     }
+    @media screen and (max-width: 800px) {
+    width: 90%;
   }
+  }
+  
 
   .total {
     margin-top: 30px;

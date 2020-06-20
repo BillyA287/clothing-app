@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {addItem} from '../../redux/cart/cart.actions'
-import './collection-item.style.scss'
+import './collection-item.styles'
 import {
   CollectionItemContainer,
   CollectionFooterContainer,

@@ -9,6 +9,7 @@ import {createStructuredSelector} from 'reselect'
 import {
   selectIsCollectionsLoaded,
 } from "../../../redux/shop/shop.selectors";
+import './shop.styles'
 const CollectionPageWithSpinner = WithSpinner(CollectionsPage)
 
 const ShopPage = ({fetchCollectionsStart, match, isCollectionsLoaded}) => {
